@@ -135,7 +135,7 @@ ${formData.message}
             // Option 2: Using Formspree (simpler, no API key needed for basic use)
             // Sign up at formspree.io and replace 'YOUR_FORM_ID' with your form ID
             
-            const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            const response = await fetch('https://formspree.io/f/mwvnkrgw', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
